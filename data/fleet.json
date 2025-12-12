@@ -1,0 +1,28 @@
+{
+  "kpis": [
+    { "label": "Utilization", "value": "87%", "delta": "+2.1% vs plan", "tone": "good" },
+    { "label": "Charge Health", "value": "92%", "delta": "+1.3%", "tone": "good" },
+    { "label": "Out of Service", "value": "3.2%", "delta": "-0.4%", "tone": "warn" },
+    { "label": "Turnaround", "value": "18 min", "delta": "-1.2 min", "tone": "good" }
+  ],
+  "recommendations": [
+    {
+      "tag": "Energy",
+      "text": "Shift overnight charging to hubs with spare solar capacity",
+      "why": "Reduces peak draw and preserves transformer life"
+    },
+    {
+      "tag": "Maintenance",
+      "text": "Advance inspections for airport SUVs by 4 hours",
+      "why": "Prevents repeat tow events on premium segment"
+    },
+    {
+      "tag": "Routing",
+      "text": "Reroute returns to downtown depot after 9pm",
+      "why": "Balances bay load and avoids overtime triggers"
+    }
+  ],
+  "mapBadges": ["High-availability hubs", "Active telematics feed"],
+  "chartText": "Utilization trending up after load balancing across metro corridors.",
+  "explain": "Model tracks cell health, dwell times, and temperature variance to anticipate vehicle downtime."
+}

@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mobility Control Tower</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <header class="topbar">
+      <div class="logo-title">
+        <div class="dot"></div>
+        <div>
+          <p class="eyebrow">AI Mobility</p>
+          <h1>Mobility Control Tower</h1>
+        </div>
+      </div>
+      <nav id="tab-nav" class="tab-nav" aria-label="Data tabs"></nav>
+      <div class="scenario-pill" id="scenario-pill">Scenario: Normal</div>
+    </header>
+
+    <main class="layout">
+      <section class="panel left-panel">
+        <div class="card scenario-card">
+          <h2>Scenarios</h2>
+          <div class="scenario-buttons">
+            <button data-scenario="normal" class="scenario-btn active">Normal</button>
+            <button data-scenario="disrupt" class="scenario-btn">Disrupt</button>
+            <button data-scenario="correct" class="scenario-btn">Correct</button>
+          </div>
+        </div>
+        <div class="card narration-card">
+          <h3>Narration</h3>
+          <p id="narration">Loading...</p>
+        </div>
+        <div class="card signals-card">
+          <h3>Active Signals</h3>
+          <ul id="signals-list" class="signals-list"></ul>
+        </div>
+      </section>
+
+      <section class="panel center-panel">
+        <div class="card map-card">
+          <div class="card-header">
+            <h2 id="tab-title">Fleet</h2>
+            <span class="badge" id="map-badge-label">Live</span>
+          </div>
+          <div class="map-placeholder" aria-label="Map view">
+            <div id="map-badges" class="map-badges"></div>
+            <div class="map-grid"></div>
+            <div class="map-legend">Mobility network (sample)</div>
+          </div>
+        </div>
+        <div class="card detail-card">
+          <div class="detail-grid">
+            <div class="chart-card">
+              <h3>Chart</h3>
+              <p id="chart-text">Loading chart insights...</p>
+              <div class="chart-placeholder"></div>
+            </div>
+            <div class="explain-card">
+              <h3>Explainability</h3>
+              <p id="explain-text">Loading explainability...</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="panel right-panel">
+        <div class="card kpi-card">
+          <div class="card-header">
+            <h2>Key KPIs</h2>
+          </div>
+          <div id="kpi-grid" class="kpi-grid"></div>
+        </div>
+        <div class="card rec-card">
+          <div class="card-header">
+            <h2>Recommendations</h2>
+          </div>
+          <ul id="rec-list" class="rec-list"></ul>
+        </div>
+      </section>
+    </main>
+  </div>
+  <script src="app.js"></script>
+</body>
+</html>

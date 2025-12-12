@@ -1,0 +1,28 @@
+{
+  "kpis": [
+    { "label": "Emissions Intensity", "value": "-18% YoY", "delta": "-1.2% vs plan", "tone": "good" },
+    { "label": "Green Fleet Mix", "value": "62%", "delta": "+2.5%", "tone": "good" },
+    { "label": "Energy Cost", "value": "$0.11/kWh", "delta": "+$0.01", "tone": "warn" },
+    { "label": "Compliance Gaps", "value": "0", "delta": "unchanged", "tone": "good" }
+  ],
+  "recommendations": [
+    {
+      "tag": "Sustainability",
+      "text": "Shift charging to renewable-heavy windows in PJM and CAISO",
+      "why": "Lowers emissions intensity and qualifies for green credits"
+    },
+    {
+      "tag": "Vendors",
+      "text": "Audit suppliers with late ESG disclosures",
+      "why": "Keeps attestations current ahead of quarterly filing"
+    },
+    {
+      "tag": "Incentives",
+      "text": "Promote eco-upgrade at booking for airport kiosks",
+      "why": "Boosts green mix while offsetting energy cost pressure"
+    }
+  ],
+  "mapBadges": ["Renewable corridors", "Scope 2 tracking live"],
+  "chartText": "Emissions trending favorably with renewable shift and efficient routing.",
+  "explain": "ESG cockpit monitors supplier attestations, grid carbon intensity, and incentives tied to greener bookings."
+}
