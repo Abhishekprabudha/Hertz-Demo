@@ -20,14 +20,3 @@ A static, single-page experience that unifies five AI demos (Fleet, Ops, Revenue
 3. Save the settings. GitHub Pages will publish the site at `https://<your-username>.github.io/<repo-name>/`.
 
 No build step is required; the site runs directly from the static files in this repository.
-
-## Quick test check
-
-Because the site is fully static, the simplest verification is to serve it locally and ensure the UI loads:
-
-```bash
-python -m http.server 8000
-# visit http://localhost:8000 in your browser and click through tabs + scenario toggles
-```
-
-If the page renders and scenario/tab switches work, the JSON-driven data wiring is functioning correctly.
