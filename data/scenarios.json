@@ -1,0 +1,26 @@
+{
+  "normal": {
+    "narration": "Network operating on plan; monitoring high-frequency signals for proactive tuning.",
+    "signals": [
+      "EV utilization stable across hubs",
+      "On-time departures within 2% tolerance",
+      "Customer sentiment steady at 4.6/5"
+    ]
+  },
+  "disrupt": {
+    "narration": "Weather and supplier slippage are stressing the network; freeze tactics needed to contain loss.",
+    "signals": [
+      "Voltage anomalies on fast-charge lanes",
+      "Inbound parts delayed 45 minutes",
+      "Spike in cancellation intents in airport cluster"
+    ]
+  },
+  "correct": {
+    "narration": "Recovery playbook engaged; system nudges optimizing inventory, pricing, and routing.",
+    "signals": [
+      "Charge queues rebalanced",
+      "Fill rates trending to target",
+      "Churn risk decaying after targeted credits"
+    ]
+  }
+}

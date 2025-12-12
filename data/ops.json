@@ -1,0 +1,28 @@
+{
+  "kpis": [
+    { "label": "On-Time Departures", "value": "94.2%", "delta": "+0.8%", "tone": "good" },
+    { "label": "Hub Throughput", "value": "1,280 trips/hr", "delta": "-1.5%", "tone": "warn" },
+    { "label": "Queue Time", "value": "6.4 min", "delta": "-0.7 min", "tone": "good" },
+    { "label": "Exception Rate", "value": "2.1%", "delta": "-0.3%", "tone": "good" }
+  ],
+  "recommendations": [
+    {
+      "tag": "Crew",
+      "text": "Rebalance dispatchers to east cluster for the next 90 minutes",
+      "why": "Surgical staffing absorbs arrival spike without overtime"
+    },
+    {
+      "tag": "Lanes",
+      "text": "Stage EV swaps near corporate campus before 5pm",
+      "why": "Reduces white-glove wait time during shift change"
+    },
+    {
+      "tag": "Safety",
+      "text": "Trigger auto-audit on all manual overrides",
+      "why": "Prevents cascading delays from mis-keyed holds"
+    }
+  ],
+  "mapBadges": ["Ops health steady", "Sensor coverage 98%"],
+  "chartText": "Flow efficiency recovering after micro-staging and crew rotation.",
+  "explain": "Graph neural network observes lane-level friction, predicts queue growth, and proposes micro-actions."
+}

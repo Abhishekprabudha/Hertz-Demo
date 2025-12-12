@@ -1,0 +1,28 @@
+{
+  "kpis": [
+    { "label": "Daily Revenue", "value": "$4.8M", "delta": "+3.4% vs forecast", "tone": "good" },
+    { "label": "Dynamic Pricing Uptake", "value": "76%", "delta": "+5.0%", "tone": "good" },
+    { "label": "Promo Burn", "value": "$210k", "delta": "+$15k", "tone": "warn" },
+    { "label": "Net Margin", "value": "18.4%", "delta": "+0.6%", "tone": "good" }
+  ],
+  "recommendations": [
+    {
+      "tag": "Pricing",
+      "text": "Lift airport weekend rates by 4% where conversion remains >45%",
+      "why": "Protects margin while demand elasticity stays low"
+    },
+    {
+      "tag": "Promo",
+      "text": "Cap loyalty credits on short-haul bookings for 24 hours",
+      "why": "Promo burn trending above target in two metros"
+    },
+    {
+      "tag": "Mix",
+      "text": "Swap 30 ICE vehicles with EVs in suburban cluster",
+      "why": "Raises green-mix share and unlocks ESG-linked incentives"
+    }
+  ],
+  "mapBadges": ["Yield hot spots", "Ancillary attach 31%"],
+  "chartText": "Revenue uplift led by mix shift to premium EV packages and add-ons.",
+  "explain": "Reinforcement learner tests micro-price moves and feeds uplift into margin guardrails."
+}
