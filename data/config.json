@@ -1,0 +1,9 @@
+{
+  "tabs": [
+    { "id": "fleet", "label": "Fleet" },
+    { "id": "ops", "label": "Ops" },
+    { "id": "revenue", "label": "Revenue" },
+    { "id": "customer", "label": "Customer/Risk" },
+    { "id": "esg", "label": "ESG/Enterprise" }
+  ]
+}

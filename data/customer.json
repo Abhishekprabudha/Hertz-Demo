@@ -1,0 +1,28 @@
+{
+  "kpis": [
+    { "label": "NPS", "value": "67", "delta": "+2 pts", "tone": "good" },
+    { "label": "Churn Risk", "value": "6.1%", "delta": "-0.5%", "tone": "warn" },
+    { "label": "First-Contact Resolution", "value": "89%", "delta": "+1.1%", "tone": "good" },
+    { "label": "Fraud Flags", "value": "0.7%", "delta": "-0.1%", "tone": "good" }
+  ],
+  "recommendations": [
+    {
+      "tag": "Service",
+      "text": "Push proactive credits to loyalty tier-2 travelers impacted by delays",
+      "why": "Reduces churn propensity and boosts NPS for at-risk cohort"
+    },
+    {
+      "tag": "Risk",
+      "text": "Tighten ID verification on one-way rentals from airport cluster",
+      "why": "Fraud model flags identity anomalies in last hour"
+    },
+    {
+      "tag": "Experience",
+      "text": "Enable self-serve swaps via mobile for EV novices",
+      "why": "Lowers support queue while preserving satisfaction"
+    }
+  ],
+  "mapBadges": ["Loyalty heat", "Risk watchlist clear"],
+  "chartText": "Churn risk easing after targeted outreach to delayed flights.",
+  "explain": "Sequence model fuses support tickets, telemetry, and payments to score risk and suggest interventions."
+}
